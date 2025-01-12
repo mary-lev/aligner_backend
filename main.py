@@ -8,16 +8,13 @@ from pathlib import Path
 import os
 from pydantic import BaseModel
 
-# Import your existing functions
 from utils.txt_parser_2 import (
-    Comment, process_comments, create_word_index, 
-    find_sequence_in_text, find_best_matching_sequence
+    Comment, process_comments
 )
 from utils.xml_builder import create_xml
 
 app = FastAPI()
 
-# Enable CORS
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:3000", "https://manzoni-comments-aligner.vercel.app"],
@@ -26,7 +23,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Define response models
 class AlignedComment(BaseModel):
     number: int
     text: str
@@ -47,8 +43,36 @@ class TEIMetadata(BaseModel):
     publisherPlace: str = "Firenze"
     publisherYear: str = "1978"
 
+
 # Configuration
-TEI_DIR = Path("data/tei")  # Directory with TEI files
+TEI_DIR = Path("data/tei")
+TEMP_DIR = "/tmp"
+if not os.path.exists(TEMP_DIR):
+    os.makedirs(TEMP_DIR)
+
+MAX_UPLOAD_SIZE = 10 * 1024 * 1024  # 10MB
+
+
+def check_data_directories():
+    """Verify required data directories exist"""
+    if not TEI_DIR.exists():
+        raise RuntimeError(f"TEI directory not found: {TEI_DIR}")
+    if not os.path.isfile('data/output.json'):
+        raise RuntimeError("Edition data file (output.json) not found")
+
+@app.on_event("startup")
+async def startup_event():
+    """Check data directories on startup"""
+    check_data_directories()
+
+@app.get("/api/health")
+async def health_check():
+    """Health check endpoint"""
+    return {
+        "status": "OK",
+        "tei_files": len(list(TEI_DIR.glob("*.xml"))),
+        "temp_dir": os.path.exists(TEMP_DIR)
+    }
 
 @app.post("/api/align", response_model=AlignmentResponse)
 async def align_comments(
@@ -61,7 +85,9 @@ async def align_comments(
     try:
         # Save uploaded comments temporarily
         comments_content = await comments_file.read()
-        temp_comments_path = f"temp_{author}_{chapter}.txt"
+        if len(comments_content) > MAX_UPLOAD_SIZE:
+            raise HTTPException(status_code=413, detail="File too large (max 10MB)")
+        temp_comments_path = os.path.join(TEMP_DIR, f"temp_{author}_{chapter}.txt")
         with open(temp_comments_path, "wb") as f:
             f.write(comments_content)
 
@@ -97,8 +123,15 @@ async def align_comments(
     except FileNotFoundError as e:
         raise HTTPException(status_code=404, detail=f"Chapter file not found: {chapter}.xml")
     except Exception as e:
-        print(f"Error processing alignment: {str(e)}")
-        raise HTTPException(status_code=500, detail=str(e))
+        if os.path.exists(temp_comments_path):
+            os.remove(temp_comments_path)
+        raise e
+    finally:
+        if os.path.exists(temp_comments_path):
+            try:
+                os.remove(temp_comments_path)
+            except:
+                pass
 
 
 @app.get("/api/chapters")
@@ -116,7 +149,7 @@ async def list_chapters() -> List[Dict[str, str]]:
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-# Optional: Add endpoint to get chapter content
+
 @app.get("/api/chapters/{chapter_id}")
 async def get_chapter_content(chapter_id: str) -> Dict[str, str]:
     """Get TEI content for a specific chapter"""
@@ -140,18 +173,14 @@ class SaveTEIRequest(BaseModel):
 def load_edition_data() -> Dict:
     with open('data/output.json', 'r', encoding='utf-8') as f:
         editions = json.load(f)
-        print(f"Loaded edition data for {len(editions)} editions")
-        # Create a normalized version of the curator name for lookup
         return {edition['filename']: edition for edition in editions}
 
 @app.post("/api/save-tei")
 async def save_tei(request: SaveTEIRequest) -> Dict[str, str]:
     print(f"Saving TEI XML for {request.metadata.author}, {request.metadata.editor} in chapter {request.chapter}")
     try:
-        # Load edition data
         editions = load_edition_data()
         
-        # Find the edition by curator
         edition_data = None
         for ed in editions.values():
             if ed['curator'] == request.metadata.editor:
@@ -193,28 +222,33 @@ async def save_tei(request: SaveTEIRequest) -> Dict[str, str]:
                 number=comment.number,
                 source=source,
                 tag=tag,
-                author=editor_filename,  # Use editor's filename here
+                author=editor_filename,
                 start=comment.start,
                 end=comment.end,
                 status=comment.status
             )
             comments_list.append(comment_obj)
 
-        # Generate XML using editor's filename for the output file
-        xml_filename = create_xml(
+        xml_filename = os.path.join(TEMP_DIR, create_xml(
             source,
             comments_list,
-            request.metadata.author,  # Still pass annotator name for the header
+            request.metadata.author,
             edition_data
-        )
+        ))
         print(f"Generated TEI XML: {xml_filename}")
 
-        # Read and return content
-        with open(xml_filename, 'r', encoding='utf-8') as f:
-            xml_content = f.read()
+        # Read content and clean up
+        try:
+            with open(xml_filename, 'r', encoding='utf-8') as f:
+                xml_content = f.read()
+            # Clean up temporary file
+            os.remove(xml_filename)
+            return {"content": xml_content}
+        except Exception as e:
+            if os.path.exists(xml_filename):
+                os.remove(xml_filename)
+            raise e
         
-        return {"content": xml_content}
-
     except Exception as e:
         print(f"Error generating TEI XML: {str(e)}")
         import traceback
