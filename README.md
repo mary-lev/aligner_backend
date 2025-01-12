@@ -33,7 +33,7 @@ The tool generates TEI/XML files that follow the [LeggoManzoni project](https://
 1. Clone the repository:
 ```bash
 git clone https://github.com/mary-lev/aligner_backend.git
-cd manzoni-comments-aligner-backend
+cd aligner-backend
 ```
 
 2. Create and activate a virtual environment:
