@@ -1,4 +1,5 @@
 # backend/main.py
+import json
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from typing import Dict, List, Optional
@@ -136,60 +137,86 @@ class SaveTEIRequest(BaseModel):
     metadata: TEIMetadata
     aligned_comments: List[AlignedComment]
 
+def load_edition_data() -> Dict:
+    with open('data/output.json', 'r', encoding='utf-8') as f:
+        editions = json.load(f)
+        print(f"Loaded edition data for {len(editions)} editions")
+        # Create a normalized version of the curator name for lookup
+        return {edition['filename']: edition for edition in editions}
+
 @app.post("/api/save-tei")
 async def save_tei(request: SaveTEIRequest) -> Dict[str, str]:
+    print(f"Saving TEI XML for {request.metadata.author}, {request.metadata.editor} in chapter {request.chapter}")
     try:
-        # Convert aligned comments back to the format expected by create_xml
-        comments_list = []
-        chapter_id = request.chapter.replace('cap', '')
-        source = f"cap{chapter_id}"
-        tag=f"c{chapter_id}"
+        # Load edition data
+        editions = load_edition_data()
         
-       # In save_tei endpoint
+        # Find the edition by curator
+        edition_data = None
+        for ed in editions.values():
+            if ed['curator'] == request.metadata.editor:
+                edition_data = ed
+                break
+
+        print(f"Found edition data: {edition_data['filename'] if edition_data else 'Not found'}")
+        
+        if not edition_data:
+            raise HTTPException(
+                status_code=400, 
+                detail=f"Edition not found for curator: {request.metadata.editor}"
+            )
+
+        chapter_id = request.chapter.replace('cap', '')
+        is_intro = 'intro' in request.chapter.lower()
+        source = "intro" if is_intro else request.chapter
+        tag = "intro" if is_intro else f"c{request.chapter.replace('cap', '')}"
+        
+        # Get editor's filename for XML IDs
+        editor_filename = edition_data['filename']
+        
+        comments_list = []
         for comment in request.aligned_comments:
-            # Split text into reference and comment parts using the ": " separator
-            parts = comment.text.split(": ", 1)  # Split only on first occurrence
-            if len(parts) == 2:
-                ref_text = parts[0]  # This will be the bold reference
-                comment_text = parts[1]
-            else:
-                ref_text = comment.text
-                comment_text = comment.comment
+            parts = comment.text.split(": ", 1)
+            ref_text = parts[0] if len(parts) > 1 else comment.text
+            comment_text = parts[1] if len(parts) > 1 else comment.comment
 
-            # Create the note string in TEI XML format
-            note_str = f'''<note xml:id="{request.metadata.author}_{source}-n{comment.number}" type="comm" target="quarantana/{source}.xml#{tag}_{comment.start}"{' targetEnd="quarantana/' + source + '.xml#' + tag + '_' + str(comment.end) + '"' if comment.start != comment.end else ''}><ref rend="bold">{ref_text}</ref>: {comment_text}</note>'''
+            # Use editor's filename in the XML ID
+            note_str = f'''<note xml:id="{editor_filename}_{source}-n{comment.number}" 
+                          type="comm" 
+                          target="quarantana/{source}.xml#{tag}_{comment.start}"
+                          {' targetEnd="quarantana/' + source + '.xml#' + tag + '_' + str(comment.end) + '"' if comment.start != comment.end else ''}>
+                          <ref rend="bold">{ref_text}</ref>: {comment_text}
+                     </note>'''
 
-            # Create Comment object with the properly formatted XML string
             comment_obj = Comment(
-                text=note_str,  # The full XML string
+                text=note_str,
                 number=comment.number,
                 source=source,
-                tag=f"c{chapter_id}",
-                author=request.metadata.author,
+                tag=tag,
+                author=editor_filename,  # Use editor's filename here
                 start=comment.start,
                 end=comment.end,
                 status=comment.status
             )
             comments_list.append(comment_obj)
-        # Generate the XML file
+
+        # Generate XML using editor's filename for the output file
         xml_filename = create_xml(
             source,
-            comments_list, 
-            request.metadata.author,
-            editor=request.metadata.editor,
-            publisher=request.metadata.publisher,
-            publisher_place=request.metadata.publisherPlace,
-            publisher_year=request.metadata.publisherYear
+            comments_list,
+            request.metadata.author,  # Still pass annotator name for the header
+            edition_data
         )
+        print(f"Generated TEI XML: {xml_filename}")
 
+        # Read and return content
         with open(xml_filename, 'r', encoding='utf-8') as f:
             xml_content = f.read()
-        
-        # Clean up
-        # os.remove(xml_filename)
         
         return {"content": xml_content}
 
     except Exception as e:
         print(f"Error generating TEI XML: {str(e)}")
+        import traceback
+        traceback.print_exc()
         raise HTTPException(status_code=500, detail=str(e))

@@ -1,0 +1,1194 @@
+[
+  {
+    "filename": "Angelini",
+    "title": "I promessi sposi : Volume secondo delle Opere, a cura di Cesare Angelini",
+    "author": "Alessandro Manzoni",
+    "curator": "Angelini, Cesare",
+    "date": 1958,
+    "city": "Torino",
+    "publisher": "Unione tipografico-editrice torinese",
+    "marcatura": [
+      {
+        "resp": "Supervisione codifica",
+        "persName": "Ersilia Russo"
+      },
+      {
+        "resp": "Codifica automatizzata",
+        "persName": "Maria Levchenko"
+      },
+      {
+        "resp": "Codifica",
+        "persName": "Isabella Greco"
+      }
+    ],
+    "notes": {
+      "p": "Introduzione, cap. 1"
+    }
+  },
+  {
+    "filename": "Badini_Confalonieri",
+    "title": "I promessi sposi: a cura di Luca Badini Confalonieri",
+    "author": "Alessandro Manzoni",
+    "curator": "Badini Confalonieri, Luca",
+    "date": 2006,
+    "city": "Roma",
+    "publisher": "Salerno",
+    "marcatura": [
+      {
+        "resp": "Codifica",
+        "persName": "Ersilia Russo"
+      }
+    ],
+    "notes": {
+      "p": "Introduzione, cap. 1"
+    },
+    "description": ""
+  },
+  {
+    "filename": "Benucci",
+    "title": "I promessi sposi :  Note e commento di Pier Paolo Benucci",
+    "author": "Alessandro Manzoni",
+    "curator": "Benucci, Pier Paolo",
+    "date": 1996,
+    "city": "Roma",
+    "publisher": "Armando Editore",
+    "marcatura": [
+      {
+        "resp": "Supervisione codifica",
+        "persName": "Ersilia Russo"
+      },
+      {
+        "resp": "Codifica automatizzata",
+        "persName": "Maria Levchenko"
+      },
+      {
+        "resp": "Codifica",
+        "persName": "Jacopo Pesaresi"
+      }
+    ],
+    "notes": {
+      "p": "Introduzione, cap. 1"
+    }
+  },
+  {
+    "filename": "Bianchi",
+    "title": "I promessi sposi :  col commento di Enrico Bianchi",
+    "author": "Alessandro Manzoni",
+    "curator": "Bianchi, Enrico",
+    "date": 1962,
+    "city": "Firenze",
+    "publisher": "Casa Editrice F. Le Monnier",
+    "marcatura": [
+      {
+        "resp": "Supervisione codifica",
+        "persName": "Ersilia Russo"
+      },
+      {
+        "resp": "Codifica automatizzata",
+        "persName": "Maria Levchenko"
+      },
+      {
+        "resp": "Codifica",
+        "persName": "Isabel Zamboni"
+      }
+    ],
+    "notes": {
+      "p": "Introduzione, cap. 1"
+    }
+  },
+  {
+    "filename": "Bonora",
+    "title": "I promessi sposi :  Introduzione e commento di Ettore Bonora",
+    "author": "Alessandro Manzoni",
+    "curator": "Bonora, Ettore",
+    "date": 1979,
+    "city": "Torino",
+    "publisher": "Loescher",
+    "marcatura": [
+      {
+        "resp": "Supervisione codifica",
+        "persName": "Ersilia Russo"
+      },
+      {
+        "resp": "Codifica automatizzata",
+        "persName": "Maria Levchenko"
+      },
+      {
+        "resp": "Codifica",
+        "persName": "Rachele Rossi"
+      }
+    ],
+    "notes": {
+      "p": "Introduzione, cap. 1"
+    }
+  },
+  {
+    "filename": "Bricchi",
+    "title": "I promessi sposi :  a cura di Bricchi",
+    "author": "Alessandro Manzoni",
+    "curator": "Bricchi, Mariarosa",
+    "date": 1996,
+    "city": "Milano",
+    "publisher": "Bompiani scuola",
+    "marcatura": [
+      {
+        "resp": "Correzione e codifica",
+        "persName": "Ersilia Russo"
+      }
+    ]
+  },
+  {
+    "filename": "Caretti",
+    "title": "I promessi sposi:  Introduzione, note, apostili e antologia della critica a cura di Lanfranco Caretti",
+    "author": "Alessandro Manzoni",
+    "curator": "Caretti, Lanfranco",
+    "date": 1970,
+    "city": "Bari",
+    "publisher": "Editori Laterza",
+    "marcatura": [
+      {
+        "resp": "Supervisione codifica",
+        "persName": "Ersilia Russo"
+      },
+      {
+        "resp": "Codifica automatizzata",
+        "persName": "Maria Levchenko"
+      },
+      {
+        "resp": "Codifica",
+        "persName": "Isabella Greco"
+      }
+    ],
+    "notes": {
+      "p": "Introduzione, cap. 1"
+    }
+  },
+  {
+    "filename": "DeCristofaro",
+    "title": "I promessi sposi:  a cura di Francesco De Cristofaro",
+    "author": "Alessandro Manzoni",
+    "curator": "De Cristofaro, Francesco",
+    "date": 2014,
+    "city": "Milano",
+    "publisher": "BUR",
+    "marcatura": [
+      {
+        "resp": "Supervisione codifica",
+        "persName": "Ersilia Russo"
+      },
+      {
+        "resp": "Codifica automatizzata",
+        "persName": "Maria Levchenko"
+      },
+      {
+        "resp": "Codifica",
+        "persName": "Chiara Leali"
+      }
+    ],
+    "notes": {
+      "p": "Introduzione, cap. 1"
+    }
+  },
+  {
+    "filename": "DeMichelis",
+    "title": "I promessi sposi:  a cura di Eurialo De Michelis",
+    "author": "Alessandro Manzoni",
+    "curator": "De Michelis, Eurialo",
+    "date": 1964,
+    "city": "Bologna",
+    "publisher": "Zanichelli",
+    "marcatura": [
+      {
+        "resp": "Supervisione codifica",
+        "persName": "Ersilia Russo"
+      },
+      {
+        "resp": "Codifica automatizzata",
+        "persName": "Maria Levchenko"
+      },
+      {
+        "resp": "Codifica",
+        "persName": "Matilde Lallbahadoor"
+      }
+    ],
+    "notes": {
+      "p": "Introduzione, cap. 1"
+    }
+  },
+  {
+    "filename": "Gavino_Oliveri",
+    "title": "I promessi sposi:  a cura di Franco Gavino Oliveri",
+    "author": "Alessandro Manzoni",
+    "curator": "Gavino Oliveri, Franco",
+    "date": 1990,
+    "city": "Milano",
+    "publisher": "Principato",
+    "marcatura": [
+      {
+        "resp": "Supervisione codifica",
+        "persName": "Ersilia Russo"
+      },
+      {
+        "resp": "Codifica automatizzata",
+        "persName": "Maria Levchenko"
+      },
+      {
+        "resp": "Codifica",
+        "persName": "Ersilia Russo"
+      }
+    ],
+    "notes": {
+      "p": "Introduzione, cap. 1"
+    }
+  },
+  {
+    "filename": "Getto",
+    "title": "I promessi sposi:  a cura di Giovanni Getto",
+    "author": "Alessandro Manzoni",
+    "curator": "Getto, Giovanni",
+    "date": 1964,
+    "city": "Firenze",
+    "publisher": "Sansoni",
+    "marcatura": [
+      {
+        "resp": "Supervisione codifica",
+        "persName": "Ersilia Russo"
+      },
+      {
+        "resp": "Codifica automatizzata",
+        "persName": "Maria Levchenko"
+      },
+      {
+        "resp": "Codifica",
+        "persName": "Isabella Greco"
+      }
+    ],
+    "notes": {
+      "p": "Introduzione, cap. 1"
+    }
+  },
+  {
+    "filename": "Giacalone",
+    "title": "I promessi sposi:  a cura di Giuseppe Giacalone",
+    "author": "Alessandro Manzoni",
+    "curator": "Giuseppe Giacalone",
+    "date": 1996,
+    "city": "Pescara",
+    "publisher": "Italica",
+    "marcatura": [
+      {
+        "resp": "Supervisione codifica",
+        "persName": "Ersilia Russo"
+      },
+      {
+        "resp": "Codifica automatizzata",
+        "persName": "Maria Levchenko"
+      },
+      {
+        "resp": "Codifica",
+        "persName": "Giudo Manfredini"
+      }
+    ],
+    "notes": {
+      "p": "Scheda editoriale"
+    }
+  },
+  {
+    "filename": "Guerri",
+    "title": "I promessi sposi:  a cura di Domenico Guerri",
+    "author": "Alessandro Manzoni",
+    "curator": "Guerri, Domenico",
+    "date": 1925,
+    "city": "Firenze",
+    "publisher": "Vallecchi",
+    "marcatura": [
+      {
+        "resp": "Supervisione codifica",
+        "persName": "Ersilia Russo"
+      },
+      {
+        "resp": "Codifica automatizzata",
+        "persName": "Maria Levchenko"
+      },
+      {
+        "resp": "Codifica",
+        "persName": "Alessia Panebianco"
+      }
+    ],
+    "notes": {
+      "p": "Introduzione, cap. 1"
+    }
+  },
+  {
+    "filename": "Jacomuzzi",
+    "title": "I promessi sposi:  Nuova edizione integrale. A cura di A. Jacomuzzi e A.M. Longobardi",
+    "author": "Alessandro Manzoni",
+    "curator": "Jacomuzzi, Angelo",
+    "date": 2013,
+    "city": "Torino",
+    "publisher": "SEI Editrice",
+    "marcatura": [
+      {
+        "resp": "Supervisione codifica",
+        "persName": "Ersilia Russo"
+      },
+      {
+        "resp": "Codifica automatizzata",
+        "persName": "Maria Levchenko"
+      },
+      {
+        "resp": "Codifica",
+        "persName": "Alice Caputa"
+      }
+    ],
+    "notes": {
+      "p": "Introduzione, cap. 1"
+    }
+  },
+  {
+    "filename": "Joannes",
+    "title": "I promessi sposi:  a cura di Fernando Vittorino Joannes",
+    "author": "Alessandro Manzoni",
+    "curator": "Joannes, Fernando Vittorino",
+    "date": 1980,
+    "city": "Milano",
+    "publisher": "Editoriale Del Drago",
+    "marcatura": [
+      {
+        "resp": "Supervisione codifica",
+        "persName": "Ersilia Russo"
+      },
+      {
+        "resp": "Codifica automatizzata",
+        "persName": "Maria Levchenko"
+      },
+      {
+        "resp": "Codifica",
+        "persName": "Isabel Zamboni"
+      }
+    ],
+    "notes": {
+      "p": "Introduzione, cap. 1"
+    }
+  },
+  {
+    "filename": "Lazzarini",
+    "title": "I promessi sposi:  Commento, note e apparato didattico a cura di Valeria Lazzarini e Lorenzo Rolla",
+    "author": "Alessandro Manzoni",
+    "curator": [
+      "Lazzarini, Valeria",
+      "Rolla, Lorenzo"
+    ],
+    "date": 2012,
+    "city": "Torino",
+    "publisher": "Il Capitello",
+    "marcatura": [
+      {
+        "resp": "Supervisione codifica",
+        "persName": "Ersilia Russo"
+      },
+      {
+        "resp": "Codifica automatizzata",
+        "persName": "Maria Levchenko"
+      },
+      {
+        "resp": "Codifica",
+        "persName": "Filippo Pelacci"
+      }
+    ],
+    "notes": {
+      "p": "Introduzione, cap. 1"
+    }
+  },
+  {
+    "filename": "Luperini-Brogi",
+    "title": "I promessi sposi:  a cura di Luperini-Brogi",
+    "author": "Alessandro Manzoni",
+    "curator": [
+      "Romano Luperini",
+      "Daniela Brogi"
+    ],
+    "date": 1998,
+    "city": "Milano",
+    "publisher": "Einaudi Scuola",
+    "marcatura": [
+      {
+        "resp": "Supervisione codifica",
+        "persName": "Ersilia Russo"
+      },
+      {
+        "resp": "Codifica automatizzata",
+        "persName": "Maria Levchenko"
+      },
+      {
+        "resp": "Codifica",
+        "persName": "Ersilia Russo"
+      }
+    ],
+    "notes": {
+      "p": "Introduzione, cap. 1"
+    }
+  },
+  {
+    "filename": "Marchese",
+    "title": "I promessi sposi :  a cura di Angelo Marchese",
+    "author": "Alessandro Manzoni",
+    "curator": "Marchese, Angelo",
+    "date": 1986,
+    "city": "Milano",
+    "publisher": "Mondadori",
+    "marcatura": [
+      {
+        "resp": "Supervisione codifica",
+        "persName": "Ersilia Russo"
+      },
+      {
+        "resp": "Codifica automatizzata",
+        "persName": "Maria Levchenko"
+      },
+      {
+        "resp": "Codifica",
+        "persName": "Isabella Greco"
+      }
+    ],
+    "notes": {
+      "p": "Introduzione, cap. 1"
+    }
+  },
+  {
+    "filename": "Messina",
+    "title": "I promessi sposi:  a cura di Michele Messina",
+    "author": "Alessandro Manzoni",
+    "curator": "Michele Messina",
+    "date": 1964,
+    "city": "Messina-Firenze",
+    "publisher": "G. D'Anna",
+    "marcatura": [
+      {
+        "resp": "Supervisione codifica",
+        "persName": "Ersilia Russo"
+      },
+      {
+        "resp": "Codifica automatizzata",
+        "persName": "Maria Levchenko"
+      },
+      {
+        "resp": "Codifica",
+        "persName": "Alessia Panebianco"
+      }
+    ],
+    "notes": {
+      "p": "Introduzione, cap. 1"
+    }
+  },
+  {
+    "filename": "Momigliano",
+    "title": "I promessi sposi:  a cura di Attilio Momigliano",
+    "author": "Alessandro Manzoni",
+    "curator": "Attilio Momigliano",
+    "date": 1951,
+    "city": "Firenze",
+    "publisher": "Sansoni",
+    "marcatura": [
+      {
+        "resp": "Supervisione codifica",
+        "persName": "Ersilia Russo"
+      },
+      {
+        "resp": "Codifica automatizzata",
+        "persName": "Maria Levchenko"
+      },
+      {
+        "resp": "Codifica",
+        "persName": "Ersilia Russo"
+      }
+    ],
+    "notes": {
+      "p": "Introduzione, cap. 1"
+    }
+  },
+  {
+    "filename": "Nardi",
+    "title": "I promessi sposi:  col commento di Piero Nardi",
+    "author": "Alessandro Manzoni",
+    "curator": "Nardi, Piero",
+    "date": 1940,
+    "city": "Milano",
+    "publisher": "Mondadori",
+    "marcatura": [
+      {
+        "resp": "Supervisione codifica",
+        "persName": "Ersilia Russo"
+      },
+      {
+        "resp": "Codifica automatizzata",
+        "persName": "Maria Levchenko"
+      },
+      {
+        "resp": "Codifica",
+        "persName": "Alice Caputa"
+      }
+    ],
+    "notes": {
+      "p": "Introduzione, cap. 1"
+    }
+  },
+  {
+    "filename": "Nicoletti",
+    "title": "I promessi sposi:  con espansione online. A cura di Giuseppe Nicoletti",
+    "author": "Alessandro Manzoni",
+    "curator": "Nicoletti, Giuseppe",
+    "date": 2020,
+    "city": "Firenze",
+    "publisher": "Edimedia",
+    "marcatura": [
+      {
+        "resp": "Supervisione codifica",
+        "persName": "Ersilia Russo"
+      },
+      {
+        "resp": "Codifica automatizzata",
+        "persName": "Maria Levchenko"
+      },
+      {
+        "resp": "Codifica",
+        "persName": "Ersilia Russo"
+      }
+    ],
+    "notes": {
+      "p": "Introduzione, cap. 1"
+    }
+  },
+  {
+    "filename": "Nigro",
+    "title": "I promessi sposi (1840), a cura di Salvatore Silvano Nigro; Storia della Colonna infame, a cura di Ermanno Paccagnini",
+    "author": "Alessandro Manzoni",
+    "curator": "Nigro, Salvatore Silvano",
+    "date": 2002,
+    "city": "Milano",
+    "publisher": "Mondadori",
+    "marcatura": [
+      {
+        "resp": "Supervisione codifica",
+        "persName": "Ersilia Russo"
+      }
+    ],
+    "notes": {
+      "p": "Introduzione, cap. 1"
+    }
+  },
+  {
+    "filename": "Petrocchi",
+    "title": "I promessi sposi:  a cura di Policarpo Petrocchi",
+    "author": "Alessandro Manzoni",
+    "curator": "Policarpo Petrocchi",
+    "date": "1893-1902",
+    "city": "Firenze",
+    "publisher": "Sansoni",
+    "marcatura": [
+      {
+        "resp": "Supervisione codifica",
+        "persName": "Ersilia Russo"
+      },
+      {
+        "resp": "Codifica automatizzata",
+        "persName": "Maria Levchenko"
+      },
+      {
+        "resp": "Codifica",
+        "persName": "Isabel Zamboni"
+      }
+    ],
+    "notes": {
+      "p": "Introduzione, cap. 1"
+    }
+  },
+  {
+    "filename": "Petronio",
+    "title": "I promessi sposi:  a cura di Giuseppe Petronio",
+    "author": "Alessandro Manzoni",
+    "curator": "Petronio",
+    "date": 1943,
+    "city": "Torino",
+    "publisher": "G. B. Paravia & C.",
+    "marcatura": [
+      {
+        "resp": "Supervisione codifica",
+        "persName": "Ersilia Russo"
+      },
+      {
+        "resp": "Codifica automatizzata",
+        "persName": "Maria Levchenko"
+      },
+      {
+        "resp": "Codifica",
+        "persName": "Isabel Zamboni"
+      }
+    ],
+    "notes": {
+      "p": "Introduzione, cap. 1"
+    }
+  },
+  {
+    "filename": "Pistelli",
+    "title": "I promessi sposi:  a cura di Ermengildo Pistelli",
+    "author": "Alessandro Manzoni",
+    "curator": "Pistelli, Ermenegildo",
+    "date": 1978,
+    "city": "Firenze",
+    "publisher": "Sansoni",
+    "marcatura": [
+      {
+        "resp": "Supervisione codifica",
+        "persName": "Ersilia Russo"
+      },
+      {
+        "resp": "Codifica automatizzata",
+        "persName": "Maria Levchenko"
+      },
+      {
+        "resp": "Codifica",
+        "persName": "Jacopo Pesaresi"
+      }
+    ],
+    "notes": {
+      "p": "Introduzione, cap. 1"
+    }
+  },
+  {
+    "filename": "Poggi_Salani",
+    "title": "I promessi sposi: Testo del 1840-1842, a cura di Teresa Poggi Salani",
+    "author": "Alessandro Manzoni",
+    "curator": "Poggi Salani, Teresa",
+    "date": 2013,
+    "city": "Milano",
+    "publisher": "Centro Nazionale Studi Manzoniani",
+    "marcatura": [
+      {
+        "resp": "Supervisione codifica",
+        "persName": "Ersilia Russo"
+      },
+      {
+        "resp": "Codifica automatizzata",
+        "persName": "Maria Levchenko"
+      },
+      {
+        "resp": "Codifica",
+        "persName": "Ersilia Russo"
+      }
+    ],
+    "notes": {
+      "p": "Introduzione, cap. 1"
+    }
+  },
+  {
+    "filename": "Raimondi-Bottoni",
+    "title": "I promessi sposi:  a cura di Ezio Raimondi, Luciano Bottoni",
+    "author": "Alessandro Manzoni",
+    "curator": [
+      "Raimondi, Ezio",
+      "Bottoni, Luciano"
+    ],
+    "date": 2021,
+    "city": "Roma",
+    "publisher": "Carocci",
+    "marcatura": [
+      {
+        "resp": "Supervisione codifica",
+        "persName": "Ersilia Russo"
+      },
+      {
+        "resp": "Codifica automatizzata",
+        "persName": "Maria Levchenko"
+      },
+      {
+        "resp": "Codifica",
+        "persName": "Jacopo Pesaresi"
+      }
+    ],
+    "notes": {
+      "p": "Introduzione, cap. 1"
+    }
+  },
+  {
+    "filename": "RigutiniMestica",
+    "title": "I promessi sposi: a cura di Giuseppe Rigutini e Enrico Mestica",
+    "author": "Alessandro Manzoni",
+    "curator": [
+      "Rigutini,Giuseppe",
+      "Mestica, Enrico"
+    ],
+    "date": 1925,
+    "city": "Firenze",
+    "publisher": "G. Barbera",
+    "marcatura": [
+      {
+        "resp": "Supervisione codifica",
+        "persName": "Ersilia Russo"
+      },
+      {
+        "resp": "Codifica automatizzata",
+        "persName": "Maria Levchenko"
+      },
+      {
+        "resp": "Codifica",
+        "persName": "Alessia Panebianco"
+      }
+    ],
+    "notes": {
+      "p": "Introduzione, cap. 1"
+    }
+  },
+  {
+    "filename": "Russo",
+    "title": "I promessi sposi:  a cura di Luigi Russo",
+    "author": "Alessandro Manzoni",
+    "curator": "Russo, Luigi",
+    "date": 1935,
+    "city": "Firenze",
+    "publisher": "La Nuova Italia editrice",
+    "marcatura": [
+      {
+        "resp": "Correzione e codifica",
+        "persName": "Ersilia Russo"
+      },
+      {
+        "resp": "Codifica Introduzione, cap. 1",
+        "persName": "Gabriele Castellano",
+        "note": "Liceo classico Ugo Foscolo, Canicattì (AG)"
+      },
+      {
+        "resp": "Codifica cap. 2",
+        "persName": "Kleide Maria Ciotta",
+        "note": "Liceo classico Ugo Foscolo, Canicattì (AG)"
+      },
+      {
+        "resp": "Codifica cap. 3",
+        "persName": "Clara Comparato",
+        "note": "Liceo classico Ugo Foscolo, Canicattì (AG)"
+      },
+      {
+        "resp": "Codifica cap. 4",
+        "persName": "Denise Dispenza",
+        "note": "Liceo classico Ugo Foscolo, Canicattì (AG)"
+      },
+      {
+        "resp": "Codifica cap. 5",
+        "persName": "Gaetano Falsone",
+        "note": "Liceo classico Ugo Foscolo, Canicattì (AG)"
+      },
+      {
+        "resp": "Codifica cap. 6",
+        "persName": "Miriam Farrugio",
+        "note": "Liceo classico Ugo Foscolo, Canicattì (AG)"
+      },
+      {
+        "resp": "Codifica cap. 7",
+        "persName": "Adriana Garlisi",
+        "note": "Liceo classico Ugo Foscolo, Canicattì (AG)"
+      },
+      {
+        "resp": "Codifica cap. 8",
+        "persName": "Lucia Greco",
+        "note": "Liceo classico Ugo Foscolo, Canicattì (AG)"
+      },
+      {
+        "resp": "Codifica cap. 9",
+        "persName": "Giovanni Pietro Maria La Greca",
+        "note": "Liceo classico Ugo Foscolo, Canicattì (AG)"
+      },
+      {
+        "resp": "Codifica cap. 11",
+        "persName": "Francesco Lentini",
+        "note": "Liceo classico Ugo Foscolo, Canicattì (AG)"
+      },
+      {
+        "resp": "Codifica cap. 12",
+        "persName": "Maria Chiara Leonardi",
+        "note": "Liceo classico Ugo Foscolo, Canicattì (AG)"
+      },
+      {
+        "resp": "Codifica cap. 13",
+        "persName": "Flavia Mancuso",
+        "note": "Liceo classico Ugo Foscolo, Canicattì (AG)"
+      },
+      {
+        "resp": "Codifica cap. 14",
+        "persName": "Chiara Nicosia",
+        "note": "Liceo classico Ugo Foscolo, Canicattì (Ag)"
+      },
+      {
+        "resp": "Codifica cap. 15",
+        "persName": "Rossella Maria Palermo",
+        "note": "Liceo classico Ugo Foscolo, Canicattì (Ag)"
+      },
+      {
+        "resp": "Codifica cap. 16",
+        "persName": "Lara Sanfilippo",
+        "note": "Liceo classico Ugo Foscolo, Canicattì (Ag)"
+      },
+      {
+        "resp": "Codifica cap. 17",
+        "persName": "Deborah Vella",
+        "note": "Liceo classico Ugo Foscolo, Canicattì (Ag)"
+      },
+      {
+        "resp": "Codifica cap. 19",
+        "persName": "Rossana Pia Vella",
+        "note": "Liceo classico Ugo Foscolo,Canicattì (Ag)"
+      },
+      {
+        "resp": "Codifica cap. 20",
+        "persName": "Clivia Pia Amato",
+        "note": "Liceo classico Ugo Foscolo,Canicattì (Ag)"
+      },
+      {
+        "resp": "Codifica cap. 21",
+        "persName": "Luca Averna",
+        "note": "Liceo classico Ugo Foscolo,Canicattì (Ag)"
+      },
+      {
+        "resp": "Codifica cap. 23",
+        "persName": "Giovanni Buscemi",
+        "note": "Liceo classico Ugo Foscolo,Canicattì (Ag)"
+      },
+      {
+        "resp": "Codifica cap. 24",
+        "persName": "Roberta Esposto",
+        "note": "Liceo classico Ugo Foscolo,Canicattì (Ag)"
+      },
+      {
+        "resp": "Codifica cap. 25",
+        "persName": "Aurora Farrugio",
+        "note": "Liceo classico Ugo Foscolo,Canicattì (Ag)"
+      },
+      {
+        "resp": "Codifica cap. 26",
+        "persName": "Matteo Ferlisi",
+        "note": "Liceo classico Ugo Foscolo,Canicattì (Ag)"
+      },
+      {
+        "resp": "Codifica cap. 29",
+        "persName": "Luigi Frangiamone",
+        "note": "Liceo classico Ugo Foscolo,Canicattì (Ag)"
+      },
+      {
+        "resp": "Codifica cap. 30",
+        "persName": "Rosemary Frisina",
+        "note": "Liceo classico Ugo Foscolo,Canicattì (Ag)"
+      },
+      {
+        "resp": "Codifica cap. 31",
+        "persName": "Giada Gambino",
+        "note": "Liceo classico Ugo Foscolo,Canicattì (Ag)"
+      },
+      {
+        "resp": "Codifica cap. 32",
+        "persName": "Maria Giardina",
+        "note": "Liceo classico Ugo Foscolo,Canicattì (Ag)"
+      },
+      {
+        "resp": "Codifica cap. 33",
+        "persName": "Nicolò Gulizia",
+        "note": "Liceo classico Ugo Foscolo,Canicattì (Ag)"
+      },
+      {
+        "resp": "Codifica cap. 34",
+        "persName": "Savio Gioacchino La Vecchia",
+        "note": "Liceo classico Ugo Foscolo,Canicattì (Ag)"
+      },
+      {
+        "resp": "Codifica cap. 35",
+        "persName": "Vincenzo Merulla",
+        "note": "Liceo classico Ugo Foscolo,Canicattì (Ag)"
+      },
+      {
+        "resp": "Codifica cap. 36",
+        "persName": "Girolamo Napoli",
+        "note": "Liceo classico Ugo Foscolo,Canicattì (Ag)"
+      },
+      {
+        "resp": "Codifica cap. 37",
+        "persName": "Rossella Nicosia",
+        "note": "Liceo classico Ugo Foscolo,Canicattì (Ag)"
+      },
+      {
+        "resp": "Codifica cap. 38",
+        "persName": "Dalila Stefania Patermo",
+        "note": "Liceo classico Ugo Foscolo,Canicattì (Ag)"
+      }
+    ],
+    "notes": {
+      "p": "Introduzione, cap. 1-16, 18-20, 21-23"
+    }
+  },
+  {
+    "filename": "Sbrilli",
+    "title": "I promessi sposi:  Commento di Gilda Sbrilli",
+    "author": "Alessandro Manzoni",
+    "curator": "Sbrilli, Gilda",
+    "date": 1988,
+    "city": "Firenze",
+    "publisher": "Editore Bulgarini",
+    "marcatura": [
+      {
+        "resp": "Supervisione codifica",
+        "persName": "Ersilia Russo"
+      },
+      {
+        "resp": "Codifica automatizzata",
+        "persName": "Maria Levchenko"
+      },
+      {
+        "resp": "Codifica",
+        "persName": "Jacopo Pesaresi"
+      }
+    ],
+    "notes": {
+      "p": "Introduzione, cap. 1"
+    }
+  },
+  {
+    "filename": "Spinazzola",
+    "title": "I promessi sposi:  Introduzione e note di Vittorio Spinazzola",
+    "author": "Alessandro Manzoni",
+    "curator": "Spinazzola, Vittorio",
+    "date": 1972,
+    "city": "Milano",
+    "publisher": "Garzanti",
+    "marcatura": [
+      {
+        "resp": "Supervisione codifica",
+        "persName": "Ersilia Russo"
+      },
+      {
+        "resp": "Codifica automatizzata",
+        "persName": "Maria Levchenko"
+      },
+      {
+        "resp": "Codifica",
+        "persName": "Arianna Roffi"
+      }
+    ],
+    "notes": {
+      "p": "Introduzione, cap. 1"
+    }
+  },
+  {
+    "filename": "Stella-Repossi",
+    "title": "I promessi sposi:  a cura di Angelo Stella, Cesare Repossi",
+    "author": "Alessandro Manzoni",
+    "curator": [
+      "Angelo Stella",
+      "Cesare Repossi"
+    ],
+    "date": 1995,
+    "city": "Torino",
+    "publisher": "Einaudi-Gallimard",
+    "marcatura": [
+      {
+        "resp": "Supervisione codifica",
+        "persName": "Ersilia Russo"
+      },
+      {
+        "resp": "Codifica automatizzata",
+        "persName": "Maria Levchenko"
+      },
+      {
+        "resp": "Codifica",
+        "persName": "Filippo Pelacci"
+      }
+    ],
+    "notes": {
+      "p": "Introduzione, cap. 1"
+    }
+  },
+  {
+    "filename": "TittaRosa",
+    "title": "I promessi sposi:  a cura di Giovanni Titta Rosa",
+    "author": "Alessandro Manzoni",
+    "curator": "Giovanni Titta Rosa",
+    "date": 1996,
+    "city": "Milano",
+    "publisher": "Mursia",
+    "marcatura": [
+      {
+        "resp": "Supervisione codifica",
+        "persName": "Ersilia Russo"
+      },
+      {
+        "resp": "Codifica automatizzata",
+        "persName": "Maria Levchenko"
+      },
+      {
+        "resp": "Codifica",
+        "persName": "Ersilia Russo"
+      }
+    ],
+    "notes": {
+      "p": "Introduzione, cap. 1"
+    }
+  },
+  {
+    "filename": "Travi",
+    "title": "I promessi sposi:  a cura di Biancamaria Travi",
+    "author": "Alessandro Manzoni",
+    "curator": "Travi, Biancamaria",
+    "date": 1981,
+    "city": "Milano",
+    "publisher": "Edizioni Scolastiche Bruno Mondadori",
+    "marcatura": [
+      {
+        "resp": "Supervisione codifica",
+        "persName": "Ersilia Russo"
+      },
+      {
+        "resp": "Codifica automatizzata",
+        "persName": "Maria Levchenko"
+      },
+      {
+        "resp": "Codifica",
+        "persName": "Filippo Pelacci"
+      }
+    ],
+    "notes": {
+      "p": "Introduzione, cap. 1"
+    }
+  },
+  {
+    "filename": "Trombatore",
+    "title": "I promessi sposi:  a cura di Gaetano Trombatore",
+    "author": "Alessandro Manzoni",
+    "curator": "Trombatore, Gaetano",
+    "date": 1980,
+    "city": "Palermo",
+    "publisher": "Palumbo",
+    "marcatura": [
+      {
+        "resp": "Supervisione codifica",
+        "persName": "Ersilia Russo"
+      },
+      {
+        "resp": "Codifica automatizzata",
+        "persName": "Maria Levchenko"
+      },
+      {
+        "resp": "Codifica",
+        "persName": "Ludovica Grillini"
+      }
+    ],
+    "notes": {
+      "p": "Introduzione, cap. 1"
+    }
+  },
+  {
+    "filename": "Ulivi",
+    "title": "I promessi sposi:  a cura di Ferruccio Ulivi",
+    "author": "Alessandro Manzoni",
+    "curator": "Ulivi, Ferruccio",
+    "date": 1989,
+    "city": "Roma",
+    "publisher": "Grandi Tascabili Economici Newton",
+    "marcatura": [
+      {
+        "resp": "Supervisione codifica",
+        "persName": "Ersilia Russo"
+      },
+      {
+        "resp": "Codifica automatizzata",
+        "persName": "Maria Levchenko"
+      },
+      {
+        "resp": "Codifica",
+        "persName": "Ersilia Russo"
+      }
+    ],
+    "notes": {
+      "p": "Introduzione, cap. 1."
+    }
+  },
+  {
+    "filename": "Verdino",
+    "title": "I promessi sposi:  a cura di Stefano Verdino",
+    "author": "Alessandro Manzoni",
+    "curator": "Verdino, Stefano",
+    "date": 1990,
+    "city": "Milano",
+    "publisher": "Tascabili Bompiani",
+    "marcatura": [
+      {
+        "resp": "Supervisione codifica",
+        "persName": "Ersilia Russo"
+      },
+      {
+        "resp": "Codifica automatizzata",
+        "persName": "Maria Levchenko"
+      },
+      {
+        "resp": "Codifica",
+        "persName": "Lorenzo Laconi"
+      }
+    ],
+    "notes": {
+      "p": "Introduzione, cap. 1."
+    }
+  },
+  {
+    "filename": "Viti-Sapegno2005",
+    "title": "I promessi sposi:  a cura di Natalino Sapegno e Gorizio Viti",
+    "author": "Alessandro Manzoni",
+    "curator": [
+      "Sapegno, Natalino",
+      "Viti, Gorizio"
+    ],
+    "date": 2005,
+    "city": "Firenze",
+    "publisher": "Le Monnier",
+    "marcatura": [
+      {
+        "resp": "Supervisione codifica",
+        "persName": "Ersilia Russo"
+      },
+      {
+        "resp": "Codifica automatizzata",
+        "persName": "Maria Levchenko"
+      },
+      {
+        "resp": "Codifica",
+        "persName": "Ersilia Russo"
+      }
+    ],
+    "notes": {
+      "p": "Introduzione, cap. 1."
+    }
+  },
+  {
+    "filename": "Viti_Sapegno",
+    "title": "I promessi sposi:  a cura di Natalino Sapegno e Gorizio Viti",
+    "author": "Alessandro Manzoni",
+    "curator": [
+      "Sapegno, Natalino",
+      "Viti, Gorizio"
+    ],
+    "date": 1995,
+    "city": "Firenze",
+    "publisher": "Le Monnier",
+    "marcatura": [
+      {
+        "resp": "Supervisione codifica",
+        "persName": "Ersilia Russo"
+      },
+      {
+        "resp": "Codifica automatizzata",
+        "persName": "Maria Levchenko"
+      },
+      {
+        "resp": "Codifica",
+        "persName": "Viti-Sapegno"
+      }
+    ],
+    "notes": {
+      "p": "Introduzione, cap. 1."
+    }
+  }
+]
